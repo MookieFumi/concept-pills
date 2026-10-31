@@ -1,0 +1,13 @@
+<!-- Defaults shared by every pill. Same conventions as entry-hub. -->
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <OutputType>Exe</OutputType>
+    <!-- The before projects are imperfect on purpose; these analyzers would point at the lesson, not at a bug -->
+    <NoWarn>$(NoWarn);CA1822;CA1854</NoWarn>
+  </PropertyGroup>
+</Project>
