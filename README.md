@@ -29,5 +29,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `16-layers-vs-slices` | Layers vs vertical slices |
 | `17-modular-monolith` | Modular monolith |
 | `18-cqrs` | CQRS |
+| `19-eventual-consistency` | Eventual consistency |
 
 Style: one class per file, braces always, folders by feature, English names.
