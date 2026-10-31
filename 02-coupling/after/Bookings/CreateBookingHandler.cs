@@ -1,10 +1,10 @@
 namespace After.Bookings;
 
-public sealed class CreateBookingHandler(IBookingStore store, INotifier notifier, IClock clock)
+public sealed class CreateBookingHandler(IBookingStore store, INotifier notifier, TimeProvider timeProvider)
 {
     public bool Handle(BookingRequest request)
     {
-        if (request.StartAt < clock.Now)
+        if (request.StartAt < timeProvider.GetUtcNow())
         {
             Console.WriteLine("Rejected: the booking starts in the past.");
             return false;
