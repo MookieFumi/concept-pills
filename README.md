@@ -23,5 +23,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `10-bounded-context` | Bounded context |
 | `11-identity` | Entities and identity |
 | `12-aggregates` | Aggregates |
+| `13-domain-events` | Domain events |
 
 Style: one class per file, braces always, folders by feature, English names.
