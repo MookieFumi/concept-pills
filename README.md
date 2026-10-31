@@ -21,5 +21,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `08-essential-complexity` | Essential vs accidental complexity |
 | `09-ubiquitous-language` | Ubiquitous language |
 | `10-bounded-context` | Bounded context |
+| `11-identity` | Entities and identity |
 
 Style: one class per file, braces always, folders by feature, English names.
