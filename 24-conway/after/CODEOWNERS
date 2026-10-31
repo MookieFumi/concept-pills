@@ -1,0 +1,7 @@
+# Teams organised by business capability
+* platform-team
+Features/Reserve/ reservations-team
+Features/Cancel/ reservations-team
+Features/ReserveWithCatering/ catering-team
+Domain/ reservations-team
+Data/ reservations-team
