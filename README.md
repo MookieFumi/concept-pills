@@ -30,5 +30,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `17-modular-monolith` | Modular monolith |
 | `18-cqrs` | CQRS |
 | `19-eventual-consistency` | Eventual consistency |
+| `20-idempotency` | Idempotency |
 
 Style: one class per file, braces always, folders by feature, English names.
