@@ -19,5 +19,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `06-immutability` | Immutability |
 | `07-solid` | SOLID in a real case (SRP and DIP) |
 | `08-essential-complexity` | Essential vs accidental complexity |
+| `09-ubiquitous-language` | Ubiquitous language |
 
 Style: one class per file, braces always, folders by feature, English names.
