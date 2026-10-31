@@ -28,5 +28,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `15-anti-corruption-layer` | Anti-corruption layer |
 | `16-layers-vs-slices` | Layers vs vertical slices |
 | `17-modular-monolith` | Modular monolith |
+| `18-cqrs` | CQRS |
 
 Style: one class per file, braces always, folders by feature, English names.
