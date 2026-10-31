@@ -6,6 +6,6 @@ public sealed class Whiteboard : IEquipment
 
     public string Capture()
     {
-        return "whiteboard captured";
+        return $"{Name}: captured";
     }
 }

@@ -6,6 +6,6 @@ public sealed class VideoSystem : IEquipment
 
     public string StartCall(string meetingLink)
     {
-        return $"call started at {meetingLink}";
+        return $"{Name}: call started at {meetingLink}";
     }
 }
