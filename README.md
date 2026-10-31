@@ -24,5 +24,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `11-identity` | Entities and identity |
 | `12-aggregates` | Aggregates |
 | `13-domain-events` | Domain events |
+| `14-repository` | Repository |
 
 Style: one class per file, braces always, folders by feature, English names.
