@@ -26,5 +26,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `13-domain-events` | Domain events |
 | `14-repository` | Repository |
 | `15-anti-corruption-layer` | Anti-corruption layer |
+| `16-layers-vs-slices` | Layers vs vertical slices |
 
 Style: one class per file, braces always, folders by feature, English names.
