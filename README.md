@@ -33,5 +33,6 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `20-idempotency` | Idempotency |
 | `21-outbox` | Transactional outbox |
 | `22-saga` | Saga |
+| `23-resilience` | Timeouts, retries and circuit breaker |
 
 Style: one class per file, braces always, folders by feature, English names.
