@@ -26,5 +26,14 @@ Run any of them with `dotnet run --project <folder>/before` or `<folder>/after`.
 | `13-domain-events` | Domain events |
 | `14-repository` | Repository |
 | `15-anti-corruption-layer` | Anti-corruption layer |
+| `16-layers-vs-slices` | Layers vs vertical slices |
+| `17-modular-monolith` | Modular monolith |
+| `18-cqrs` | CQRS |
+| `19-eventual-consistency` | Eventual consistency |
+| `20-idempotency` | Idempotency |
+| `21-outbox` | Transactional outbox |
+| `22-saga` | Saga |
+| `23-resilience` | Timeouts, retries and circuit breaker |
+| `24-conway` | Conway's law |
 
 Style: one class per file, braces always, folders by feature, English names.

@@ -1,0 +1,7 @@
+# Teams organised by technical layer
+* platform-team
+Controllers/ api-team
+Dtos/ api-team
+Services/ domain-team
+Models/ domain-team
+Repositories/ data-team
